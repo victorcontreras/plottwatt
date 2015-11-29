@@ -1,0 +1,12 @@
+
+ 
+HOUSE_ID = 16185
+API_KEY = "MTAxZDU0YjRjYjNh"
+pw = Plotwatt(HOUSE_ID, API_KEY)
+
+# will create 3 new meters
+new_meter_ids = pw.create_meters(1)
+1
+2
+# list_meters will return a list of meter_ids
+meter_ids = pw.list_meters()
